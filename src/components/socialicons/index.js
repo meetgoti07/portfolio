@@ -14,10 +14,17 @@ export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {socialprofils.twitter && (
+      {socialprofils.fiverr && (
           <li>
-            <a href={socialprofils.twitter}>
-              <FaTwitter />
+            <a href={socialprofils.fiverr}>
+            <img src={'./images/fiverr.png'} style={{ width: '1.3em', height: '1.3em' }} />
+            </a>
+          </li>
+        )}
+        {socialprofils.linkedin && (
+          <li>
+            <a href={socialprofils.linkedin}>
+              <FaLinkedin />
             </a>
           </li>
         )}
@@ -28,17 +35,18 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
+        {socialprofils.twitter && (
+          <li>
+            <a href={socialprofils.twitter}>
+              <FaTwitter />
+            </a>
+          </li>
+        )}
+
         {socialprofils.facebook && (
           <li>
             <a href={socialprofils.facebook}>
               <FaFacebookF />
-            </a>
-          </li>
-        )}
-        {socialprofils.linkedin && (
-          <li>
-            <a href={socialprofils.linkedin}>
-              <FaLinkedin />
             </a>
           </li>
         )}

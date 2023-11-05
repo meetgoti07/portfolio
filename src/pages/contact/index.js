@@ -40,7 +40,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "Thank You for Contacting Me. I'll get back to you soon!",
             variant: "success",
             show: true,
           });
@@ -95,6 +95,12 @@ export const ContactUs = () => {
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
+            <strong>Fiverr:</strong>{" "}
+            <a href={'https://fiverr.com/meetgoti07'}>
+            https://fiverr.com/meetgoti07
+              </a>
+            <br />
+              <br />
               <strong>Email:</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
