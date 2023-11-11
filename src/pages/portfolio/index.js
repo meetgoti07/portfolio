@@ -3,6 +3,7 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
+import { Link } from "react-router-dom";
 
 export const Portfolio = () => {
   return (
@@ -18,6 +19,16 @@ export const Portfolio = () => {
             <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
+          <div className="intro_btn-action pb-5">
+                <Link to="/contact">
+                  <div id="button_h" className="ac_btn btn">
+                    Contact Me
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
+                </Link>
+              </div>
         </Row>
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
@@ -32,7 +43,19 @@ export const Portfolio = () => {
             );
           })}
         </div>
+        <div className="intro_btn-action pb-5">
+                  <Link to="/contact">
+                    <div id="button_h" className="ac_btn btn">
+                      Contact Me
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </Link>
+                </div>
+
       </Container>
+      
     </HelmetProvider>
   );
 };
