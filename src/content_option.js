@@ -117,6 +117,47 @@ const services = [{
     description: "I excel in developing custom desktop software solutions tailored to your specific needs, streamlining your operations.",
 }
 ];
+const testimonials = [{
+    title: "Casey Richard, Vermont , USA",
+    description: "Meet delivered a stunning Wordpress website exactly as promised and several days before deadline.",
+},
+{
+    title: "Dennis, USA",
+    description: "Off to a rocky start. But seller delivered quickly once I made recommended changes on my end. I would use again.",
+},
+{
+    title: "Vasu Aghera, India",
+    description: "Awesome seller. Designed highly creative and unique logo. good communication and fast delivery. Will Definitely suggest him. looking forward for more projects.",
+},
+{
+    title: "Joseph Curran, Spain",
+    description: "Great service. Very responsive, highly recommend",
+},
+{
+    title: "Aman Kihimani, India",
+    description: "highly recommend developer",
+},
+{
+    title: "qflutz, Canada",
+    description: "Great communication, quality product, delivered on time. Highly recommend.",
+},
+{
+    title: "Sanidhya Clinic, India",
+    description: "I would surely recommend him for him development skills, communication and engagement during the whole process. He is surely a reliable and skilled candidate here to assign any design or development related work. He helped me in redesigning my Wix website before the launch date.",
+},
+{
+    title: "BodyGuardStars, USA,",
+    description: "We still have more projects in the pipeline to complete but I trust him like a regular employee in the office. If he was local, he would always have a job as a developer on my staff. Great work ethic",
+},
+{
+    title: "SlimSculpting, USA,",
+    description: "He works very fast and follows instructions well. I have decided to send several projects to Meet already and more to come soon.",
+},
+{
+    title: "CreditMaxFunding, USA,",
+    description: "Shreya was able to fix many of the issues left in need of repair after a previous developer had created a few errors and certain things were missing. The website runs much better now. I will hire her for more projects. She works hard to get the job done fast.",
+}
+];
 
 const dataportfolio = [{
     img: "./images/bsb.jpg",
@@ -184,4 +225,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    testimonials,
 };
