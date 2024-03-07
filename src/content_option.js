@@ -155,7 +155,7 @@ const testimonials = [{
 },
 {
     title: "CreditMaxFunding, USA,",
-    description: "Shreya was able to fix many of the issues left in need of repair after a previous developer had created a few errors and certain things were missing. The website runs much better now. I will hire her for more projects. She works hard to get the job done fast.",
+    description: "Meet was able to fix many of the issues left in need of repair after a previous developer had created a few errors and certain things were missing. The website runs much better now. I will hire her for more projects. She works hard to get the job done fast.",
 }
 ];
 
