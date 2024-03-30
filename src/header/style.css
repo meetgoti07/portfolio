@@ -205,3 +205,7 @@
     margin-right: 10px;
     text-decoration: none;
 }
+
+.head-bg-color{
+    background-color:var(--primary-color);
+}
