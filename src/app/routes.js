@@ -8,6 +8,10 @@ import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { Testimonials } from "../pages/testimonials";
+import PrivacyPolicy from "../compliances/privacyPolicy";
+import RefundPolicy from "../compliances/refundPolicy";
+import TermsAndConditions from "../compliances/termsAndConditions";
+
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -26,6 +30,9 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>

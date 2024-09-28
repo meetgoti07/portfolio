@@ -73,6 +73,21 @@ export const Home = () => {
                   </Link>
                 </div>
               </div>
+              <div>
+                <nav className="nav-bar">
+                  <ul>
+                    <li>
+                      <Link to="/refund-policy">Refund Policy</Link>
+                    </li>
+                    <li>
+                      <Link to="/terms-and-conditions">Terms & Conditions</Link>
+                    </li>
+                    <li>
+                      <Link to="/privacy-policy">Privacy Policy</Link>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </div>
           </div>
         </div>

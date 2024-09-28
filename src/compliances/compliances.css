@@ -1,0 +1,11 @@
+/* Global Styles */
+.container {
+    padding-left: 10px; /* Default padding for mobile */
+}
+
+/* Media query for larger screens (desktops and tablets) */
+@media (min-width: 768px) {
+    .container {
+        padding-left: 50px; /* Padding for desktop */
+    }
+}
